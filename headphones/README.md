@@ -1,4 +1,3 @@
- HEAD
 # Headphones Webpage
 
 This README describes the Headphones webpage project for ALX.
@@ -25,5 +24,3 @@ The goal of this project is to create a responsive webpage that matches a Figma 
 GitHub repository: `alx_html_css`  
 Directory: `headphones`
 File:`README.md`
-
-
