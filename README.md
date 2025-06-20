@@ -23,4 +23,4 @@ The goal of this project is to create a responsive webpage that matches a Figma 
 
 GitHub repository: `alx_html_css`  
 Directory: `headphones`
-File: `README.md`
+File:`README.md`
