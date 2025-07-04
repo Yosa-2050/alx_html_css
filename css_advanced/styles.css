@@ -89,7 +89,7 @@
            font-weight: bold;
            font-family: sans-serif;
           color: white;
-          background-color: rgb(192, 98, 192);
+          background-color: #C271FF;
           border: none;
           border-radius: 20px;
            cursor: pointer;
@@ -132,7 +132,7 @@ padding: 60px 20px;
     
   }
   .learn {
-    color:rgb(192, 98, 192) ;
+    color:#C271FF ;
   }
 
   .quotes {
@@ -177,4 +177,115 @@ padding: 60px 20px;
   font-style: italic;
   font-size: 18px;
   margin: 5px 0 0;
+}
+.tutorials {
+  padding: 60px 40px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.tutorials h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  font-weight: 300;
+  font-family: sans-serif;
+  color: #333;
+}
+
+.learn {
+  color: #C271FF;
+  font-weight: bold;
+}
+
+.tutorial-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+   cursor: pointer;
+}
+
+.tutorial-card {
+  background-color: white;
+  width: 220px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.tutorial-card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.tutorial-card h3 {
+  font-size: 16px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.tutorial-card p {
+  font-size: 13px;
+  color: #888;
+  line-height: 1.4;
+  margin: 10px 0;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.author img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.author h4 {
+  font-size: 13px;
+  color: #C271FF;
+  font-weight: bold;
+  margin: 0;
+}
+
+.rating {
+  display: flex;
+  gap: 5px;
+  color: #C271FF;
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.duration {
+  font-size: 13px;
+  color: #888;
+  margin-top: 5px;
+}
+
+.thumbnail {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.thumbnail img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+  opacity: 0.9;
+  pointer-events: none; 
+ 
 }
