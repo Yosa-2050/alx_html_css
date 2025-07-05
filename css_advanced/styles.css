@@ -12,7 +12,7 @@
  .logo {
             display: block;
              margin: 0 auto;
-             vertical-align:auto;
+             
         }
   .ul {
             position:absolute;
@@ -343,4 +343,90 @@ padding: 60px 20px;
   border-radius: 30px;
   cursor: pointer;
 }
+.box-faq {
 
+}
+.box-faq {
+  background-color: #fff;
+  padding: 80px 20px;
+  color: #071629;
+  font-family: sans-serif;
+}
+
+.box-faq h2 {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 60px;
+  font-weight:50;
+
+}
+
+.box-faq_1 {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.faq-column {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.faq-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.faq-item p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgb(170, 169, 169);
+  margin: 0;
+  padding-left: 20px;
+}
+
+
+footer {
+  background-color: #15012c;
+  color: white;
+  padding: 100px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo-1 {
+  width: 150px;
+}
+
+.copy-right {
+  flex: 1;
+  text-align: center;
+  color: #cec9c9;
+  font-size: 14px;
+  opacity: 0.9;
+  margin-top:40px;
+}
+
+.nav-2 {
+  display: flex;
+  gap: 19px;
+}
+
+.social-media {
+  font-size: 500px;
+  color: white;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.social-media:hover {
+  color: #c271ff; 
+}
